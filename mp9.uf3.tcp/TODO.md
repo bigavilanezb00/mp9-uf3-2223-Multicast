@@ -6,7 +6,7 @@
 > > - El client i el servidor es parlen només amb Strings, per això la classe SecretNum té el mètode comprova sobrecarregat per usar Strings.
 
 >**Tasca 2**  
->L'Objecte [Llista.java](/src/mp9/uf3/tcp/exemples/Llista.java) consta d'un __nom__(String) i una __llista de numeros__(List -Integer-)
+>L'Objecte [Llista.java](src/mp9/uf3/tcp/exemples/Llista.java) consta d'un __nom__(String) i una __llista de numeros__(List -Integer-)
 > > - Implementeu un servidor TCP perquè accepti diferents clients alhora que li enviaran un objcte de tipus
 > Llista i aquest el hi retornarà el mateix objecte amb el números ordenats i sense repetits.  
 > > - Implementeu un client amb TCP que envii al servidor un Llista omplert amb un nom i una llista de números,
