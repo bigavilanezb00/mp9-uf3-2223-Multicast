@@ -17,7 +17,7 @@
 >**Tasca 3**  
 >Adaptar el joc d'endevinar un número implementat [aquí](src/mp9/uf3/tcp/jocObj) perquè tingui el següent comportament:
 > > - Hi ha d'haver un servidor multicast que vagi enviant l'estat del joc mentre el joc estigui en marxa, és a dir
-> > - mentre hi hagi jugadors que encara no hagin encertat el número secret.  
-> > - Els clients(jugadors) quan hagin envcertat el número, si encara hi ha jugadors que no ho han fet, ha de rebre
-> > - per multicasting l'estat del joc(tauler), perquè estiguin al corrent de com van la resta de jugadors
-> > - i saber si ells han necessitat més o menys intents que la resta.
+> > mentre hi hagi jugadors que encara no hagin encertat el número secret.  
+> > - Els clients(jugadors) quan hagin encertat el número, si encara n'hi ha que no ho han fet, han de rebre
+> > per multicasting l'estat del joc(tauler), perquè estiguin al corrent de com van la resta, 
+> > i saber si ells han necessitat més o menys intents.
