@@ -4,9 +4,6 @@ import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * Created by jordi on 05/03/17.
- */
 public class Tauler implements Serializable {
     public Map<String,Integer> map_jugadors;
     public int resultat = 3, acabats;
